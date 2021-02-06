@@ -18,7 +18,6 @@ class pprime {
         StringTokenizer st = new StringTokenizer(f.readLine());
         int start = Integer.parseInt(st.nextToken());
         int end = Integer.parseInt(st.nextToken());
-        boolean[] ar = new boolean[9999];
         int[]vals = {2, 3, 5, 7,11};
         for(int v: vals){
             if(v>=start){
